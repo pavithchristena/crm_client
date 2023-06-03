@@ -169,7 +169,7 @@ const ManagePipeline = () => {
             </div>
             <div className={styles.add_new_button}>
                 <PrimaryButton
-                    style={{ display: (demandCreator == "true") ? 'block' : 'none' }}
+                    // style={ }
                     text="Add New"
                     iconProps={addIcon}
                     className={styles['custom-button']}
